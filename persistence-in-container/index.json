@@ -18,7 +18,7 @@
 				"text": "step3.md"
 			},
 			{
-				"title": "Named Volume anlegen",
+				"title": "Named Volume anlegen und testen",
 				"text": "step4.md"
 			},
 			{
@@ -28,6 +28,14 @@
 			{
 				"title": "Step 6",
 				"text": "step6.md"
+			},
+			{
+				"title": "",
+				"text": "step7.md"
+			},
+			{
+				"title": "",
+				"text": "step8.md"
 			}
 		],
 		"intro": {
@@ -38,7 +46,11 @@
 		}
 	},
 	"environment": {
-		"uilayout": "terminal"
+		"hideintro": true,
+		"uilayout": "terminal",
+		"uieditorpath": "/root/example",
+		"showide": true,
+		"ide": "ssh host01 '/opt/start-vscode.sh /root/example'"
 	},
 	"backend": {
 		"imageid": "ubuntu:2004"
