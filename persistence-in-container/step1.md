@@ -6,7 +6,7 @@ Container fühlen sich ähnlich wie Virtuelle Maschinen an, wenn damit gearbeite
 
 # Images
 
-Container basieren auf sogenannten _Images_ welche eine Umgebung beschreiben in welcher gearbeitet werden kann. Hierbei ist es möglich ein eigenes Image zu beschreiben und zu bauen.
+Container basieren auf sogenannten _Images_ welche eine Umgebung beschreiben in welcher gearbeitet werden kann. Hierbei ist es möglich ein eigenes Image zu beschreiben und zu bauen. Dies erlaubt es einem Entwickler, eine Anwendung samt benötigten Abhängigkeiten in einem eigenen Image zu verpacken. Diese Image kann im Anschluss in einem Zentralen Speicher gespeichert werden und ausgeführt werden. Das Image Format ist Standardisiert und kann deshalb von vielen verschiedenen
 
 # Docker
 
@@ -14,4 +14,4 @@ Die am weitest verbreitete, sogenannte _Container Engine_ ist Docker. Daher wird
 
 # Podman
 
-Eine, auf dem Desktop, weit verbreitete Alternative zu Docker ist Podman. In Produktivumgebungen wird Podman weniger verwendet, da es Benutzerunfreundlicherere, dafür leichtere Alternativen gibt.
+Eine, auf dem Desktop, weit verbreitete Alternative zu Docker ist Podman. Das Podman Command Line Interface (CLI) ist dem von Docker gleich, weßhalb viele Umsteiger gerne Podman wählen. In Produktivumgebungen wird Podman weniger verwendet, da es leichtere, dafür aber Benutzerunfreundlicherere, Alternativen gibt.

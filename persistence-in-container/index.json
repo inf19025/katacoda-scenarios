@@ -10,7 +10,7 @@
 				"text": "step1.md"
 			},
 			{
-				"title": "Persistenz in Docker",
+				"title": "Persistenz in Containern",
 				"text": "step2.md"
 			},
 			{
@@ -18,24 +18,32 @@
 				"text": "step3.md"
 			},
 			{
-				"title": "Named Volume anlegen und testen",
+				"title": "Docker Volume anlegen und testen",
 				"text": "step4.md"
 			},
 			{
-				"title": "Volumes in docker compose",
+				"title": "Docker Volume in docker compose",
 				"text": "step5.md"
 			},
 			{
-				"title": "Step 6",
+				"title": "Bind mount anlegen und testen",
 				"text": "step6.md"
 			},
 			{
-				"title": "",
+				"title": "Bind mount in docker compose",
 				"text": "step7.md"
 			},
 			{
-				"title": "",
+				"title": "Step 6",
 				"text": "step8.md"
+			},
+			{
+				"title": "",
+				"text": "step9.md"
+			},
+			{
+				"title": "",
+				"text": "step10.md"
 			}
 		],
 		"intro": {
