@@ -7,7 +7,8 @@
 		"steps": [
 			{
 				"title": "Was sind Container",
-				"text": "step1.md"
+				"text": "step1.md",
+				"courseData": "setup.sh"
 			},
 			{
 				"title": "Persistenz in Containern",
@@ -53,12 +54,12 @@
 			"text": "finish.md"
 		}
 	},
+	"files": ["docker-compose.yml"],
 	"environment": {
 		"hideintro": true,
 		"uilayout": "vscode-terminal-split",
 		"uisettings": "yaml"
 	},
-	"files": ["docker-compose.yml", "docker-compose.yml"],
 	"backend": {
 		"imageid": "ubuntu:2004"
 	}
