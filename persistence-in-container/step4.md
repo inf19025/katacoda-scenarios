@@ -7,5 +7,10 @@ Wir legen jetzt das Volume _myvolume_ mit dem Befehl `docker volume create myvol
 
 # Volume testen
 
-Um unser Volume nun zu testen starten wir einen Container mit dem _CentOS_ Image.
-`docker run -it centos:latest -v myvolume:/myvolume`{{execute}}
+Zuerst können wir uns alle vorhandenen Docker Volumes mit `docker volume ls`{{execute}} anschauen.
+
+Um unser Volume nun zu testen starten wir einen interaktiven Container mit dem _CentOS_ Image und mounten unser Volume mithilfe der -v Flag.
+`docker run -it -v myvolume:/myvolume centos:latest`{{execute}}\
+Nun ist unser Volume innerhalb des Containers, mit dem Pfad `/myvolume` vefügbar und wir können mit `cd /myvolume`{{execute}} dort hinein navigieren.\
+Mit dem Befehl `echo "Datei in myvolume" >> test.txt`{{execute}} erstellen wir die Datei _"test.txt"_ mit dem Inhalt "Datei in myvolume", den Inhalt der Datei können wir auch wieder mit dem Befehl `cat test.txt`{{execute}} ausgeben.\
+Abschliesend können wir unseren container wieder mit `exit`{{execute}} verlassen und mit `docker containe prune`{{execute}} den gestoppten Container löschen.\
