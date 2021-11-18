@@ -1,46 +1,46 @@
 {
-  "title": "Persistence in a container",
-  "description": "",
-  "difficulty": "Beginner",
-  "time": "10min",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
-      },
-      {
-        "title": "Step 6",
-        "text": "step6.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
-  },
-  "environment": {
-    "uilayout": "terminal"
-  },
-  "backend": {
-    "imageid": "ubuntu:2004"
-  }
+	"title": "Persistenz im Container",
+	"description": "",
+	"difficulty": "Beginner",
+	"time": "10min",
+	"details": {
+		"steps": [
+			{
+				"title": "Was sind Container",
+				"text": "step1.md"
+			},
+			{
+				"title": "Persistenz in Docker",
+				"text": "step2.md"
+			},
+			{
+				"title": "Volume Arten in Docker",
+				"text": "step3.md"
+			},
+			{
+				"title": "Named Volume anlegen",
+				"text": "step4.md"
+			},
+			{
+				"title": "Volumes in docker compose",
+				"text": "step5.md"
+			},
+			{
+				"title": "Step 6",
+				"text": "step6.md"
+			}
+		],
+		"intro": {
+			"text": "intro.md"
+		},
+		"finish": {
+			"text": "finish.md"
+		}
+	},
+	"environment": {
+		"uilayout": "terminal"
+	},
+	"backend": {
+		"imageid": "ubuntu:2004"
+	}
 }
