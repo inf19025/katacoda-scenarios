@@ -56,9 +56,9 @@
 	"environment": {
 		"hideintro": true,
 		"uilayout": "vscode-terminal-split",
-		"uisettings": "yaml",
-		"files": ["docker-compose.yml", "docker-compose.yml"]
+		"uisettings": "yaml"
 	},
+	"files": ["docker-compose.yml", "docker-compose.yml"],
 	"backend": {
 		"imageid": "ubuntu:2004"
 	}
