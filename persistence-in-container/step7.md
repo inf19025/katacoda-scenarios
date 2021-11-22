@@ -1,8 +1,8 @@
 Wie auch bei Volumes, können auch Bind Mounts in einer Docker Compose Datei genutzt werden.
 
-Die unten beschriebene Datei
+Die unten beschriebene Datei, nutzt wieder einen bind mount. Auch hier nutzen wie wieder unseren lokalen Ordner `mylocalvolume`.<br>
 
-<pre class="file" data-filename="docker-compose.yml" data-target="append">
+<pre class="file" data-filename="docker-compose.yml" data-target="replace">
 version: '3.7'
 
 services:
@@ -14,3 +14,7 @@ services:
     stdin_open: true
     tty: true
 </pre>
+
+Den, in der Datei beschriebenen Container können wir wieder mit `docker-compose run centos /bin/bash`{{execute}} starten.
+
+Mit dem Befehl `ls /mylocalvolume`{{execute}} können wir den Inhalt des Mounts sehen und mit `cat /mylocalvolume/test.txt`{{execute}} können wir den Inhalt unserer vorhin erstellten Datei ausgeben.
