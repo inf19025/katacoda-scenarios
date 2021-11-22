@@ -17,4 +17,4 @@ Nun ist unser Volume innerhalb des Containers, mit dem Pfad `/myvolume` vefügba
 
 Mit dem Befehl `echo "Datei in myvolume" >> test.txt`{{execute}} erstellen wir die Datei _"test.txt"_ mit dem Inhalt "Datei in myvolume", den Inhalt der Datei können wir auch wieder mit dem Befehl `cat test.txt`{{execute}} ausgeben.
 
-Abschliesend können wir unseren container wieder mit `exit`{{execute}} verlassen und mit `docker container prune -y`{{execute}} den gestoppten Container löschen. Dieser Befehl muss mit der Eingabe eines `y` im Terminal bestätigt werden.
+Abschliesend können wir unseren container wieder mit `exit`{{execute}} verlassen.
