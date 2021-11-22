@@ -30,3 +30,5 @@ Um jetzt den Container, welchen wir im `docker-compose.yml` beschrieben habe zu 
 Hier können wir in unser erstes Volume mit `ls /myvolume`{{execute}} hineinschauen und den Inhalt unser Test Datei mit `cat /myvolume/test.txt`{{execute}} ausgeben.
 
 Zudem können wir in unser neues Volume mit `cd /myvolume2`{{execute}} navigieren.
+
+Mit `exit`{{execute}} können wir den Container wiedr verlassen und stoppen.
