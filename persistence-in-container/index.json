@@ -37,10 +37,6 @@
 			{
 				"title": "Volumes anzeigen",
 				"text": "step8.md"
-			},
-			{
-				"title": "Podman ist wie Docker",
-				"text": "step9.md"
 			}
 		],
 		"intro": {

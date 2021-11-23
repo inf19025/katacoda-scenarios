@@ -1,2 +1,1 @@
 docker pull centos:latest
-

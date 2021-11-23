@@ -11,7 +11,3 @@ Container basieren auf sogenannten _Images_ welche eine Umgebung beschreiben in 
 # Docker
 
 Die am weitest verbreitete, sogenannte _Container Engine_ ist Docker. Daher wird in diesem Tutorial am stärksten auf Docker eingegangen.
-
-# Podman
-
-Eine, auf dem Desktop, weit verbreitete Alternative zu Docker ist Podman. Das Podman Command Line Interface (CLI) ist dem von Docker gleich, weßhalb viele Umsteiger gerne Podman wählen. In Produktivumgebungen wird Podman weniger verwendet, da es leichtere, dafür aber Benutzerunfreundlicherere, Alternativen gibt.
