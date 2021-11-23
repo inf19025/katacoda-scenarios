@@ -20,4 +20,4 @@ Den, in der Datei beschriebenen Container können wir wieder mit `docker-compose
 
 Mit dem Befehl `ls /mylocalvolume`{{execute}} können wir den Inhalt des Mounts sehen und mit `cat /mylocalvolume/test.txt`{{execute}} können wir den Inhalt unserer vorhin erstellten Datei ausgeben.
 
-Um den Container wieder zu verlassen nutzen wir `exit`{{execute}}
+Um den Container wieder zu verlassen nutzen wir `exit`{{execute}}.
