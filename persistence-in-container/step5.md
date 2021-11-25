@@ -5,6 +5,8 @@ Auch hier können Docker Volumes genutzt werden, hierzu wird ein docker-compose.
 Wir benutzen wieder den centos container und nutzen unser vorhin erstelltes Volume _myvolume_, welches wir am Ende der Datei als _external_ markieren.<br/>
 Zudem erstellen wir ein weiteres Volume, welches unter `/myvolume2` zu finden ist.
 
+Um dies zu machen, kopieren wir die Unten beschriebene Datei in den Text Editor und fahren unten fort.
+
 <pre class="file" data-filename="docker-compose.yml" data-target="replace">
 version: '3.7'
 

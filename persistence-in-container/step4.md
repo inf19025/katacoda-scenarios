@@ -10,7 +10,7 @@ Wir legen jetzt das Volume _myvolume_ mit dem Befehl `docker volume create myvol
 
 Zuerst können wir uns alle vorhandenen Docker Volumes mit `docker volume ls`{{execute}} anschauen.
 
-Um unser Volume nun zu testen starten wir einen interaktiven Container mit dem _CentOS_ Image und mounten unser Volume mithilfe der -v Flag.
+Um unser Volume nun zu testen starten wir einen interaktiven Container mit dem _CentOS_ Image und mounten unseres Volume mithilfe der -v Flag in dem Pfad `/myvolume`.
 `docker run -it -v myvolume:/myvolume centos:latest`{{execute}}
 
 Nun ist unser Volume innerhalb des Containers, mit dem Pfad `/myvolume` vefügbar und wir können mit `cd /myvolume`{{execute}} dort hinein navigieren.
